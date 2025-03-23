@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package main;
+import java.awt.Color;
+import gui.*;
+
+/**
+ *
+ * @author ADMIN
+ */
+import javax.swing.JFrame;
+
+public class main extends JFrame{
+    public static int width = 400;
+    public static int height = 500;
+
+    public main(){
+        setSize(width, height); 
+        getContentPane().setBackground(Color.decode("#cdffff"));
+        add(new loginForm());
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setResizable(false);
+        setVisible(true);
+    }
+
+    public static void main(String[] args) {
+//        new main();
+
+            SupermarketUI sm= new SupermarketUI();
+            sm.createAndShowGUI();
+            sm.getSuperMarketUI();
+    }
+}
