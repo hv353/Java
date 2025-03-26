@@ -7,7 +7,7 @@
  *
  * @author ADMIN
  */
-package gui;
+package GUI;
 import main.main;
 
 import java.awt.*;

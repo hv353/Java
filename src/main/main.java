@@ -4,13 +4,11 @@
  */
 package main;
 import java.awt.Color;
-import gui.*;
 
-/**
- *
- * @author ADMIN
- */
 import javax.swing.JFrame;
+
+import GUI.SupermarketUI;
+import GUI.loginForm;
 
 public class main extends JFrame{
     public static int width = 400;
